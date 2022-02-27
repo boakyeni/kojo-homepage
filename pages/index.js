@@ -29,6 +29,8 @@ const Page = () => {
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         p={3}
         align="center"
+        mt="1.5em"
+        mb="1.5em"
       >
         Hello, I&apos;m a full-stack developer based in Los Angeles!
       </Box>
