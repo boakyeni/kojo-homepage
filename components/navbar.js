@@ -71,7 +71,7 @@ const Navbar = props => {
             Works
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Posts
+            Journal
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
@@ -92,7 +92,7 @@ const Navbar = props => {
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                  <MenuItem as={Link}>Journal</MenuItem>
                 </NextLink>
                 <MenuItem as={Link} href="https://github.com/boakyeni/kojo-homepage">
                     View Source
