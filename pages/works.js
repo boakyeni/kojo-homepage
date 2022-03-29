@@ -15,7 +15,6 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          {/*
           <Section delay={0.3}>
             <WorkGridItem
               id="gye_nyame"
@@ -25,7 +24,6 @@ const Works = () => {
               A blah
             </WorkGridItem>
            </Section> 
-           */}
           <Section delay={0.3}>
             <WorkGridItem
               id="sketchsc"
