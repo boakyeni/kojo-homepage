@@ -113,7 +113,7 @@ const Page = () => {
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Stuff
+            Hobbies
           </Heading>
           <Paragraph>
             Art, Music, <Link href="/">Drawing</Link>
