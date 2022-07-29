@@ -24,7 +24,7 @@ const Work = () => {
         <Meta>Description</Meta>
         <P>
           This team project is a web application with a Java backend. I coded
-          the javascript API that relayed player data to and from the frontend
+          the JavaScript API that relayed player data to and from the frontend
           and backend.
         </P>
         <Divider my={2} />

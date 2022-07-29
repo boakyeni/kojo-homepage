@@ -1,9 +1,10 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider, useColorModeValue } from '@chakra-ui/react'
 import Section from '../components/section'
 import { GridItem, WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import thumbGyeNyame from '/public/images/gye_nyame.png'
-import thumbKente from '/public/images/kenteStatic.jpg'
+import thumbMateDark from '/public/images/matemasie-dark.png'
+import thumbMate from '/public/images/matemasie.png'
 import thumbOTS from '/public/images/outtathesystem.jpg'
 import thumbSketch from '/public/images/sketchsc.jpg'
 
@@ -15,6 +16,15 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+                id="mate"
+                title="Mate"
+                thumbnail={useColorModeValue(thumbMate, thumbMateDark)}
+              >
+                Mindfulness blog recommending books for Black men worldwide
+            </WorkGridItem>
+            </Section>
           <Section delay={0.3}>
           <WorkGridItem
                 id="outtathesystem"
