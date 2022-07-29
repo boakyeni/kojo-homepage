@@ -78,8 +78,8 @@ const Page = () => {
             with Java.
             </Section>
              {' '}
-            <NextLink href="/works/inkdrop">
-              <Link>Inkdrop</Link>
+            <NextLink href="kwadwo.vercel.app">
+              <Link></Link>
             </NextLink>
           
           <Box align="center" my={4}>
@@ -116,7 +116,7 @@ const Page = () => {
             Hobbies
           </Heading>
           <Paragraph>
-            Art, Music, <Link href="/">Drawing</Link>
+            Yoga, Stage Engineering, <Link href="/">Reading</Link>
           </Paragraph>
         </Section>
         <Section delay={0.3}>

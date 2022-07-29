@@ -41,7 +41,7 @@ import {
               <HStack spacing={0.25}>
               <Meta>Website</Meta>
               <Link
-                href="https://mate-111.web.app"
+                href="https://mate.care"
               >
                 Mate <ExternalLinkIcon mx="2px" />
               </Link>

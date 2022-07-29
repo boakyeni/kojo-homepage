@@ -32,7 +32,7 @@ const Works = () => {
                 thumbnail={thumbOTS}
               >
                 Winner of Civics Pillar in CivHacks 2021 ~ iOS/Android
-                application to expidite the removal of sensitive data
+                application to expedite the removal of sensitive data
             </WorkGridItem>
             </Section>
             <Section delay={0.3}>
