@@ -40,7 +40,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Kojo Nimako
             </Heading>
-            <p>(Artist / Developer / Designer)</p>
+            <p>(Artist / Developer / Bookworm)</p>
           </Box>
           <Box
             flexShrink={0}
@@ -64,24 +64,23 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Work
           </Heading>
-            {' '}
-            <Section >
-            My team and personal projects focus in backend and 
+          {' '}
+          <Section >
+            My team and personal projects focus in backend and
             full stack web and mobile applications, utilizing
             tools best suited to maximize the benifits of web 3.0 and cloud computing.
-            </Section>
-            <Divider my={6} borderColor={useColorModeValue('black.500', 'gray.500')}/>
-            <Section>
+          </Section>
+          <Divider my={6} borderColor={useColorModeValue('black.500', 'gray.500')} />
+          <Section>
             My visual projects marked
-            the beginning of my career as a developer and are essentially an
-            artistic representation of my understanding of physics implemented
-            with Java.
-            </Section>
-             {' '}
-            <NextLink href="kwadwo.vercel.app">
-              <Link></Link>
-            </NextLink>
-          
+            the beginning of my career as a developer. 
+            Contact me to set up the visuals and lights for your next show!
+          </Section>
+          {' '}
+          <NextLink href="kwadwo.vercel.app">
+            <Link></Link>
+          </NextLink>
+
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button
@@ -116,7 +115,7 @@ const Page = () => {
             Hobbies
           </Heading>
           <Paragraph>
-            Yoga, Stage Engineering, <Link href="/">Reading</Link>
+            <Link href="/">Stage Tech</Link>, Yoga, Reading
           </Paragraph>
         </Section>
         <Section delay={0.3}>
