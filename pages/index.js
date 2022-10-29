@@ -33,7 +33,7 @@ const Page = () => {
           mt="1.5em"
           mb="1.5em"
         >
-          Hello, I&apos;m a full-stack developer based in Los Angeles!
+          Hello, I&apos;m a full-stack engineer based in Los Angeles!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -97,17 +97,17 @@ const Page = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>2000</BioYear>
+            <BioYear>2022</BioYear>
             Born in Los Angeles
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Completed Bachelor&apos;s of Science in Physics and Computer Science
-            at University of Southern California (USC)
+            Began work as an independent contractor
           </BioSection>
           <BioSection>
-            <BioYear>2022 to present</BioYear>
-            Working as a freelance
+            <BioYear>2023</BioYear>
+            Completed Bachelor&apos;s of Science in Physics and Computer Science
+            at University of Southern California (USC)
           </BioSection>
         </Section>
         <Section delay={0.3}>
